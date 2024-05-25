@@ -227,3 +227,65 @@ nav-item{
     border-radius: 50%;
     margin-top: -6px;
 }
+.album{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 1rem;
+    height: 60px;;
+    width: 25%;
+}
+.recent-played{
+    display: flex;
+    flex-direction:column;
+    margin: 5rem 1rem 5rem 1rem;
+    justify-content: center;
+    cursor: pointer;
+}
+.title{
+    font-size: 0.85rem;
+    opacity: 0.8;
+    font-weight: 600;
+    margin: 0 0 0.09rem 0;
+}
+.title:hover{
+    font-size: 0.86rem;
+    opacity: 1;
+    font-weight: 600;
+    margin: 0 0 0.09rem 0;
+
+}
+.description{
+    font-size: 0.80rem;
+    opacity: 0.3;
+}
+.description:hover{
+    font-size: 0.82rem;
+    opacity: 0.5;
+}
+.album img{
+    border-radius: 0.2rem;
+    height: 95%;
+    cursor: pointer;
+}
+.album img:hover{
+    border-radius: 0.2rem;
+    height: 98%;
+    cursor: pointer;
+}
+.album .like{
+    height: 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.album .like:hover{
+    height: 1.55rem;
+    cursor: pointer;
+    opacity: 1;
+}
+@media(max-width:684px){
+    .album{
+        display: none;
+    }
+}
